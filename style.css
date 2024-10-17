@@ -1,0 +1,131 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .navbar {
+    background-color: #8b0d46;
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-logo img {
+    height: 40px;
+  }
+  
+  .navbar-search input {
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  .navbar-search button {
+    padding: 6px 12px;
+    background-color: #ddd;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .navbar-icons {
+    /* Puedes agregar íconos aquí */
+  }
+  
+  /* Contenedor principal con Flexbox */
+.main-container {
+    display: flex;
+    flex-direction: column; /* Alinea los elementos verticalmente */
+    align-items: flex-start; /* Alinea el contenido hacia la izquierda */
+    margin: 20px;
+    width: 300px;
+  }
+  
+  .sidebar {
+    align-self: flex-end; /* Coloca el sidebar a la derecha */
+    margin-bottom: 20px; /* Añade espacio entre el sidebar y las tarjetas de mascotas */
+  }
+  
+  .results {
+    width: 100%;
+  }
+  
+  .pet-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .pet-card h2 {
+    margin-top: 0;
+  }
+  
+  .btn-more {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
+  .btn-more:hover {
+    background-color: #45a049;
+  }
+  
+  /* Panel lateral */
+  .sidebar-content {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f4f4f4;
+    height: 200px;
+    width: 200px;
+  }
+  
+  .btn-add {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
+  .btn-add:hover {
+    background-color: #0056b3;
+  }
+  }
+  
+  .results {
+    width: 75%;
+    margin-left: 20px;
+  }
+  
+  .pet-card {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .pet-card h2 {
+    font-size: 22px;
+  }
+  
+  .pet-card p {
+    margin: 10px 0;
+  }
+  
+  .btn-more {
+    padding: 8px 12px;
+    background-color: #0069d9;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn-more:hover {
+    background-color: #0056b3;
+  }
+  
