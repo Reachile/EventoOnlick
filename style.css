@@ -16,13 +16,9 @@ body {
     align-items: center;
 }
 
-.navbar-logo img {
-    height: 40px;
-}
-
 .navbar-search input {
     padding: 5px;
-    font-size: 16px;
+    font-size: 12px;
 }
 
 .navbar-search button {
@@ -30,19 +26,19 @@ body {
     background-color: #ddd;
     border: none;
     cursor: pointer;
+    justify-content: right;
 }
 
 /* Contenedor principal con Flexbox */
 .main-container {
     display: flex;
     margin: 20px;
-    width: calc(100% - 40px); /* Ajusta el ancho restando márgenes */
+    width: calc(100% - 40px); /* Ajusta el ancho restando márgenes */    
 }
 
 .sidebar {
-    width: 250px; 
-    height: 400px;
-    margin-right: 20px; /* Espacio entre sidebar y los resultados */
+    width: 400px; 
+    margin-left: 15px; /* Espacio entre sidebar y los resultados */
 }
 
 .results {
@@ -53,12 +49,14 @@ body {
     border: 1px solid #ccc;
     padding: 20px;
     margin-bottom: 15px;
+    font-size: 12PX;
     background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 
 .pet-card h2 {
     margin-top: 0;
+    
 }
 
 .btn-more {
@@ -78,8 +76,9 @@ body {
     border: 1px solid #ccc;
     padding: 20px;
     background-color: #f4f4f4;
+    font-size: 12PX;
     justify-content: space-between;
-;
+    margin-left: 10px;
 }
 
 .btn-add {
